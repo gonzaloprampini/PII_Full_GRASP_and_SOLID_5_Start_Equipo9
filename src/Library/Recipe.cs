@@ -9,6 +9,11 @@ using System.Collections.Generic;
 
 namespace Full_GRASP_And_SOLID
 {
+    /*
+        La clase Recipe usará la interfaz IPrintable para comunicarse con los Printers, mediante la funcion de la interfaz GetTextToPrint()
+        De esta manera, es posible ampliar las posibilidades de impresión de las recetas. Siempre y cuando la clase impresora use la 
+        interfaz IPrinter
+    */
     public class Recipe : IPrintable
     {
         // Cambiado por OCP
